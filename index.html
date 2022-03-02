@@ -13,7 +13,10 @@
 </head>
 <body>
 	<main>
-		<img class="profile" width="560" height="560" src="img/marie.webp" alt="Marie portrait"/>
+		<picture>
+		  <source srcSet="img/marie.avif" type="image/avif" />
+		  <img class="profile" width="280" height="280" decoding="async" loading="lazy" src="img/marie.webp" alt="Marie portrait" />
+		</picture>
 		<h1>Hi.</h1>
 		<h2>I'm <span class="signature">Marie</h2>
 		<h3>Graduate student majoring in management <a href="https://www.tu-chemnitz.de/"  target="_blank">@TUChemnitz</a></h3>
