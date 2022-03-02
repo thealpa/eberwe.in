@@ -8,6 +8,8 @@ body {
 }
 
 .profile {
+	width: auto;
+	height: auto;
 	max-height: 280px;
 	border-radius: 50%;
 }
@@ -56,6 +58,7 @@ a:hover {
 	font-style: normal;
 	font-weight: 400;
 	src: local('Aesthetic Notes'), url('AestheticnotesDemo-AL69x.woff2') format('woff2');
+	font-display: swap;
 }
 
 ul {
