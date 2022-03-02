@@ -11,6 +11,7 @@ body {
 	width: auto;
 	height: auto;
 	max-height: 280px;
+	max-width: 280px;
 	border-radius: 50%;
 }
 
@@ -83,4 +84,28 @@ footer svg {
 
 footer svg:hover {
 	opacity: 0.75;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+	  color: #fff;
+	  background-color: #262626;
+  }
+  
+  h1 {
+  	text-shadow: 9px -9px 0 #262626;
+  }
+  
+  a {
+	  color: #fff;
+	  text-decoration-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  a:hover {
+	  text-decoration-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  footer svg {
+	  fill: #fff;
+  }
 }
